@@ -4,13 +4,13 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: full_bite_tracker_key
+      app_store_connect: rig_guide_key
     environment:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.trigguid.GuRigGuide
       vars:
-        APP_STORE_CONNECT_KEY: full_bite_tracker_key
+        APP_STORE_CONNECT_KEY: rig_guide_key
         APP_STORE_APPLE_ID: 6758891050
         BUNDLE_ID: "com.trigguid.GuRigGuide"
         XCODE_PROJECT: "FishRigGuide.xcodeproj"
