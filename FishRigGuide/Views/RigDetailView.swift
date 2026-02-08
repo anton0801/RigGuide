@@ -22,7 +22,7 @@ struct RigDetailView: View {
                     HeaderSection()
                     
                     // Diagram section
-                    DiagramSection()
+//                    DiagramSection()
                     
                     // Description
                     SectionContainer(title: "Description") {
