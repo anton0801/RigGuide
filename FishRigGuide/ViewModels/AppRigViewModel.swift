@@ -126,6 +126,7 @@ final class AppRigViewModel: ObservableObject {
     func deferPermission() {
         store.savePermission(granted: false, blocked: false)
         showPermissionView = false
+        self.goToWeb = true
     }
 
     // MARK: - Timeout
